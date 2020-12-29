@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title style="font-size:10px;">गझल</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../src/style.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="marathi.html">Marathi</a></li>
+            <li><a href="#more">Hindi</a></li>
+            <li style="float:right"><a href="#about">More</a></li>
+        </ul>
+    </div>
+    <div class="notification-container">
+        <a href="#latest-updates" class="notification-content"></a>
+    </div>
+    <div class="shayari-container">
+        <div class="shayari-content">
+            <p class="sd">तिने विचारले मी तुझ्यासाठी काय आहे?<br> मी जवळ गेलो,तिला आलिंगन दिले आणि म्हणालो सर्वकाही.</p>
+            <p class="sd">तुला माहित आहे का jaanu की मी काय चुकी केली..?<br>तुझ्याशी रोज़-रोज़ बोलून स्वतःला तुझी सवय करून घेतली…..</p>
+            <p class="sd">कधीतरी मन उदास होते हळु हळु डोळ्यांना त्याची जाणीव होते<br> आपो आप पडतात डोळ्यांतुन अश्रू जेव्हा आपली माणस दुर असल्याची जाणीव होते</p>
+        </div>
+    </div>
+    <div class="ghazal-container">
+        <ul class="ghazal-ul">
+            <li class="ghazal-li">
+                <a href="index.html" class="ghazal-content">Ghazal 1</a>
+            </li>
+            <li class="ghazal-li">
+                <a href="#" class="ghazal-content">Ghazal 1</a>
+            </li>
+            <li class="ghazal-li">
+                <a href="#" class="ghazal-content">Ghazal 1</a>
+            </li>
+            <li class="ghazal-li">
+                <a href="#" class="ghazal-content">Ghazal 1</a>
+            </li>
+            <li class="ghazal-li">
+                <a href="#" class="ghazal-content">Ghazal 1</a>
+            </li>
+            <li class="ghazal-li">
+                <a href="#" class="ghazal-content">Ghazal 1</a>
+            </li>
+            <li class="ghazal-li">
+                <a href="#" class="ghazal-content">Ghazal 1</a>
+            </li>
+            <li class="ghazal-li">
+                <a href="#" class="ghazal-content">Ghazal 1</a>
+            </li>
+            <li class="ghazal-li">
+                <a href="#" class="ghazal-content">Ghazal 1</a>
+            </li>
+            <li class="ghazal-li">
+                <a href="#" class="ghazal-content">Ghazal 1</a>
+            </li>
+            <li class="ghazal-li">
+                <a href="#" class="ghazal-content">Ghazal 1</a>
+            </li>
+            <li class="ghazal-li">
+                <a href="#" class="ghazal-content">Ghazal 1</a>
+            </li>
+            <li class="ghazal-li">
+                <a href="#" class="ghazal-content">Ghazal 1</a>
+            </li>
+            <li class="ghazal-li">
+                <a href="#" class="ghazal-content">Ghazal 1</a>
+            </li>
+            <li class="ghazal-li">
+                <a href="#" class="ghazal-content">Ghazal 1</a>
+            </li>
+            <li class="ghazal-li">
+                <a href="#" class="ghazal-content">Ghazal 1</a>
+            </li>
+            <li class="ghazal-li">
+                <a href="#" class="ghazal-content">Ghazal 1</a>
+            </li>
+            <li class="ghazal-li">
+                <a href="#" class="ghazal-content">Ghazal 1</a>
+            </li>
+        </ul>
+    </div>
+    <script>
+        var count = 0;
+        slideShow();
+
+        function slideShow() {
+            var model = document.getElementsByClassName("sd ");
+            for (var i = 0; i < model.length; i++) {
+                model[i].style.display = "none ";
+            }
+            count++;
+            if (count > model.length) {
+                count = 1;
+            }
+            model[count - 1].style.display = "block ";
+            setTimeout(slideShow, 3000);
+        }
+    </script>
+</body>
+
+</html>

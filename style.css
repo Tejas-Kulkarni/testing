@@ -1,0 +1,231 @@
+.body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Jura', sans-serif;
+    font-weight: bold;
+}
+
+li a:hover {
+    background-color: #AAAAAA;
+    color: black;
+}
+
+.active {
+    background-color: #DDDDDD;
+    color: #333;
+}
+
+.container-h {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    line-height: 500px;
+    margin-top: -20px;
+}
+
+.h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Henny Penny', cursive;
+}
+
+.h1-m {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Halant', serif;
+}
+
+.h2 {
+    font-family: 'Jura', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.p1 {
+    text-align: center;
+    font-size: 16px;
+}
+
+.bottom-container-h {
+    height: 200px;
+    margin-top: 1%;
+    line-height: 200px;
+    text-align: center;
+    opacity: 0.30;
+}
+
+.middle-container-h {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-top: 9%;
+}
+
+.middle-container-card {
+    width: 25%;
+    height: auto;
+    margin-top: 5%;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+}
+
+.middle-container-card-content {
+    color: black;
+    font-size: 28px;
+}
+
+.middle-container-ht {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: ;
+    margin-top: 1%;
+}
+
+.href {
+    text-decoration: none;
+    display: inline-block;
+    background-color: black;
+    width: 100%;
+    margin-top: 5%;
+    height: auto;
+    line-height: 50px;
+    color: white;
+    font-family: 'Amita', cursive;
+    font-size: 20px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.href:hover {
+    background-color: #AAAAAA;
+    color: black;
+}
+
+.notification-container {
+    display: block;
+    background-color: #dddd;
+    height: 50px;
+    text-align: center;
+    margin-top: -16px;
+}
+
+@media screen and (max-width:600px) {
+    .notification-container {
+        height: 20px;
+        background-color: #fbfbfd;
+        position: relative;
+        margin-top: 1px;
+        text-align: center;
+    }
+    .notification-content {
+        font-size: 15px;
+        background-color: #fbfbfd;
+        width: 80%;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    .shayari-container {
+        background-color: black;
+        height: 300px;
+        position: relative;
+    }
+    .shayari-content {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-size: 19px;
+        width: 80%;
+        text-align: center;
+    }
+    .ghazal-container {
+        margin-top: 10px;
+    }
+    .ghazal-ul {
+        background-color: #fbfbfd;
+        width: 100%;
+    }
+    .ghazal-content:hover {
+        background-color: #AAAAAA;
+        width: 100%;
+    }
+    .ghazal-content {
+        color: black;
+        float: left;
+        text-align: left;
+        width: 100%;
+    }
+    .ghazal-li {
+        width: 100%;
+        border-bottom: 1px solid #f2f2f2;
+        font-size: 15px;
+        font-style: normal;
+        font-family: normal;
+    }
+    .container-h {
+        height: 300px;
+        line-height: 300px;
+        width: 100%;
+        background-color: black;
+        margin-top: 20px
+    }
+    .h1 {
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        font-family: 'Henny Penny', cursive;
+    }
+    .h1-m {
+        font-size: 30px;
+        color: white;
+        text-align: center;
+    }
+}
+
+.shayari-container {
+    background-color: black;
+    height: 200px;
+    position: relative;
+}
+
+.shayari-content {
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+a {
+    text-decoration: none;
+}
